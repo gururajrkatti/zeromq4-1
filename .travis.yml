@@ -2,12 +2,14 @@
 
 language: c
 
+compiler: clang
+
 os:
 - linux
 - osx
 
 sudo: false
-dist: trusty
+dist: focal
 
 addons:
   apt:
